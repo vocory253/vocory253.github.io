@@ -1,0 +1,140 @@
+/*
+  Cory Vo
+  7/3/2024
+
+  This style.css page contains my code for the sylistic choices I used for the website
+*/
+
+.oxygen-light {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+/*
+Header
+*/
+header {
+    margin-top: 35px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(101, 195, 227);
+    padding: 7px 20px;
+    border-radius: 10%;
+}
+
+nav a:visited{
+    color: black;
+}
+
+nav a:hover {
+    color: white; /* Color when hovering over links */
+    padding: 9px 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/*
+Body (intro)
+*/
+body {
+    background-color: rgb(241, 241, 215);
+    background-size: 100% 100%;
+} 
+
+h1 {
+    font-size: 120px;
+    margin: 0; 
+    font-family: Oxygen;
+}
+
+.content p {
+    font-size: 25px;
+    margin: 0;  
+    color: black;
+}
+
+.content {
+    padding: 20px 40px; 
+    text-align: left;
+    overflow: hidden;
+    color: rgb(27, 27, 160);
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.content p:first-child {
+    margin-bottom: 5px; /* Adjust space between first <p> and <h1> */
+}
+
+.content p:last-child {
+    margin-top: 10px; /* Adjust space between <h1> and last <p> */
+}
+
+.content #intro {
+    font-size: 40px;
+}
+
+#profile {
+    height: 500px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 40px;
+    max-width: 100%;
+    border-style: double;
+    border-width: 6px;
+    display: inline-block;
+}
+
+#github {
+    padding-top: 20px;
+    height: 30px;
+}
+
+#linked {
+    padding-top: 25px;
+    padding-left: 20px;
+    height: 30px;
+}
+
+#github:hover, #linked:hover {
+    transform: scale(1.1); /* Scale up by 10% on hover */
+}
+
+#github, #linked {
+    transition: transform 0.3s ease; 
+}
+
+/*
+Body (contact)
+*/
+#insta, #linked_in, #outlook, #resume {
+    height: 250px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#insta:hover, #linked_in:hover, #outlook:hover, #resume:hover {
+    height: 255px;
+}
+
+/*
+Body (projects)
+*/
+#undercon {
+    height: 500px;
+    padding-left: 400px;
+    padding-top: 75px;
+}
+
+
