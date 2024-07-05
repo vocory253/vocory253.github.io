@@ -24,9 +24,11 @@ nav {
 
 nav a {
     text-decoration: none;
-    background-color: rgb(101, 195, 227);
+    background-color: rgb(1, 191, 255);
     padding: 7px 20px;
-    border-radius: 10%;
+    border-radius: 20%;
+    display: inline-block;
+    transition: transform 0.5s ease;
 }
 
 nav a:visited{
@@ -35,12 +37,13 @@ nav a:visited{
 
 nav a:hover {
     color: white; /* Color when hovering over links */
-    padding: 9px 20px;
+    transform: scale(1.1);
+    
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 /*
@@ -69,7 +72,7 @@ h1 {
     overflow: hidden;
     color: rgb(27, 27, 160);
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .content p:first-child {
@@ -94,6 +97,11 @@ h1 {
     border-style: double;
     border-width: 6px;
     display: inline-block;
+    transition: transform 0.7s ease;
+}
+
+#profile:hover {
+    transform: scale(1.1);
 }
 
 .logos a{
@@ -101,22 +109,24 @@ h1 {
 }
 
 #github {
-    padding-top: 20px;
+    margin-top: 20px;
     height: 30px;
 }
 
 #linked {
-    padding-top: 25px;
-    padding-left: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
     height: 30px;
 }
 
 #github:hover, #linked:hover {
     transform: scale(1.1); /* Scale up by 10% on hover */
+    background-color: rgb(140, 223, 251);
 }
 
 #github, #linked {
     transition: transform 0.3s ease; 
+    border-radius: 10%
 }
 
 /*
@@ -124,9 +134,10 @@ Body (contact)
 */
 #insta, #linked_in, #outlook, #resume {
     height: 250px;
-    padding-left: 100px;
-    padding-top: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
     border-radius: 5%;
+    transition: transform 0.3s ease;
 }
 
 #insta:hover, #linked_in:hover, #outlook:hover, #resume:hover {
