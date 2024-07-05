@@ -96,6 +96,10 @@ h1 {
     display: inline-block;
 }
 
+.logos a{
+    text-decoration: none;
+}
+
 #github {
     padding-top: 20px;
     height: 30px;
@@ -122,19 +126,28 @@ Body (contact)
     height: 250px;
     padding-left: 100px;
     padding-top: 100px;
+    border-radius: 5%;
 }
 
 #insta:hover, #linked_in:hover, #outlook:hover, #resume:hover {
-    height: 255px;
+    transform: scale(1.1);
 }
 
-/*
-Body (projects)
-*/
 #undercon {
     height: 500px;
     padding-left: 400px;
     padding-top: 75px;
 }
+
+.all_logos a{
+    text-decoration: none;
+}
+
+/*
+Body (projects)
+*/
+
+
+
 
 
