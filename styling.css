@@ -72,7 +72,7 @@ h1 {
     overflow: hidden;
     color: rgb(27, 27, 160);
     display: inline-block;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .content p:first-child {
@@ -125,7 +125,7 @@ h1 {
 }
 
 #github, #linked {
-    transition: transform 0.3s ease; 
+    transition: transform 0.4s ease; 
     border-radius: 10%
 }
 
@@ -137,7 +137,7 @@ Body (contact)
     margin-left: 100px;
     margin-top: 100px;
     border-radius: 5%;
-    transition: transform 0.3s ease;
+    transition: transform 0.7s ease;
 }
 
 #insta:hover, #linked_in:hover, #outlook:hover, #resume:hover {
@@ -157,8 +157,60 @@ Body (contact)
 /*
 Body (projects)
 */
+#intro_message {
+    border-style: double;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    transition: transform 0.7s ease;
+}
 
+#intro_message:hover {
+    transform: scale(1.1);
+}
 
+.project {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+} 
 
+.project h2{
+    font-family: Oxygen;
+    text-align: center;
+}
 
+.project, p {
+    font-size: 18px;
+    line-height: 200%; 
+}
 
+#absurdle {
+    height: 250px;
+}
+
+.text {
+    margin-right: 80px;
+}
+
+.grey-out {
+    filter: grayscale(100%); /* Apply grayscale filter */
+    border-radius: 15%;
+    transition: transform 0.9s ease;
+}
+
+.grey-out:hover {
+    filter: grayscale(0%); /* Remove grayscale on hover */
+    transform: scale(1.1);
+}
+
+#todo {
+    height: 300px;
+}

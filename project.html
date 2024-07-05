@@ -13,6 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -26,10 +29,36 @@
         </nav>
     </header>
     <main>
-        <section class= "all_logos">
-            <img id="undercon" src="images/undercon.jpg" alt="Under Construction">
-                </a> 
-        </section>
+        <h2 id="intro_message">I am always trying to build new technologies that I am passionate about. 
+            Here are some of my favorite projects that I have made so far. Hope you like them! (Images are clickable)</h2>
+        <div id="project1" class="project">
+            <div class="text">
+                <h2>Absurdle</h2>
+                <p>Absurdle is a variant of the popular word-guessing game Wordle, but with a twist: it is designed to be as 
+                    difficult and frustrating as possible for the player. Unlike Wordle, where the game has a fixed secret word
+                    that the player tries to guess within six attempts, Absurdle changes the secret word dynamically based on the
+                    player's guesses. This means that Absurdle actively works against the player, shifting the target word to 
+                    ensure that the player has to continue guessing for as long as possible.
+                </p> 
+            </div>
+            <a href="https://github.com/vocory253/Absurdle" target="_blank">
+                <img id="absurdle" src="images/absurdle.jpg" class="grey-out">
+            </a>
+        </div>
+
+        <div id="project2" class="project">
+            <div class="text">
+                <h2>To-Do List Manager</h2>
+                <p>This Todo List Manager is designed to help users efficiently organize their daily schedules. With this tool,
+                    users can easily add new tasks to their list, mark them as completed when finished, and reload their current
+                    list as needed. Whether managing personal tasks, work projects, or daily errands, this manager provides a 
+                    straightforward way to stay organized and productive throughout the day.
+                </p> 
+            </div>
+            <a href="" target="_blank">
+                <img id="todo" src="images/todo.webp" class="grey-out">
+            </a>
+        </div>
     </main>
 </body>
 </html>
