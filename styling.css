@@ -57,6 +57,7 @@ h1 {
     font-size: 120px;
     margin: 0; 
     font-family: Oxygen;
+    color: rgb(27, 27, 160);
 }
 
 .content p {
@@ -68,9 +69,6 @@ h1 {
 .content {
     padding: 20px 40px; 
     text-align: left;
-    overflow: hidden;
-    color: rgb(27, 27, 160);
-    display: inline-block;
     margin-bottom: 70px;
 }
 
@@ -78,24 +76,31 @@ h1 {
     margin-bottom: 5px; /* Adjust space between first <p> and <h1> */
 }
 
-.content p:last-child {
-    margin-top: 10px; /* Adjust space between <h1> and last <p> */
+.content p:nth-last-child(2) {
+    margin-top: 35px;
 }
 
 .content #intro {
     font-size: 40px;
 }
 
+#text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#innertext {
+    margin-top: 70px;
+}
+
 #profile {
     height: 500px;
-    overflow: hidden;
     border-radius: 50%;
-    margin-left: 80px;
-    margin-top: 40px;
-    max-width: 100%;
+    margin-left: 120px;
+    margin-top: 20px;
+    min-width: 50%;
     border-style: double;
     border-width: 6px;
-    display: inline-block;
     transition: transform 0.7s ease;
 }
 
@@ -212,4 +217,9 @@ Body (projects)
 
 #todo {
     height: 300px;
+}
+
+audio {
+    margin-top: 10px;
+    margin-left: 150px;
 }
