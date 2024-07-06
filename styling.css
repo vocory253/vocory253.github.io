@@ -135,13 +135,12 @@ Body (contact)
     height: 250px;
     margin-left: 100px;
     margin-top: 100px;
-    /* border-radius: 5%; */
+    border-radius: 5%;
     transition: transform 0.7s ease;
 }
 
 #insta:hover, #linked_in:hover, #outlook:hover, #resume:hover {
     transform: scale(1.1);
-    filter: grayscale(0%);
 }
 
 #undercon {
