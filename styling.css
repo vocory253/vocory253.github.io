@@ -248,5 +248,9 @@ audio {
         display: block;
     }
 
+    p {
+        white-space: normal;
+      }
+
   }
 
