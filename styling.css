@@ -41,8 +41,8 @@ nav a:hover {
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 20px;
+    display: inline; 
+    margin: 0 20px; 
 }
 
 /*
@@ -225,7 +225,36 @@ audio {
 
 /**/
 @media only screen and (min-width: 320px) and (max-width: 414px) {
-    body {
-      background-color: lightcoral;
+    #profile {
+      margin-left: 80px;
     }
+
+    nav ul li {
+      list-style-type: none;
+      margin-bottom: 25px;
+    
+    }
+
+    #insta, #linked_in, #outlook, #resume {
+        margin-right: 100px;
+    }
+
+    #intro_message {
+        margin: 0;
+    }
+
+    .project {
+        display: block;
+    }
+
+    audio {
+        margin-left: 450px;
+    }
+
+    .grey-out{
+        margin-left: 350px;
+    }
+
+
   }
+
