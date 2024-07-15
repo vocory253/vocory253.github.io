@@ -179,6 +179,8 @@ Body (projects)
     align-items: center;
     flex-wrap: wrap;
     border-style: double;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px;
 } 
 
 .project h2{
