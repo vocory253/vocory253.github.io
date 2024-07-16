@@ -101,6 +101,12 @@ h1 {
     border-style: double;
     border-width: 6px;
     transition: transform 0.7s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+#containerpic {
+    max-width: 550px;
 }
 
 #profile:hover {
@@ -171,8 +177,8 @@ Body (projects)
 }
 
 .project {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 100px;
     display: inline-flex;
     justify-content: space-around;
@@ -181,6 +187,7 @@ Body (projects)
     border-style: double;
     border-radius: 20px;
     box-shadow: 7px 7px 10px;
+    box-sizing: border-box;
 } 
 
 .project h2{
@@ -205,6 +212,8 @@ Body (projects)
 .pics{
     border-radius: 15%;
     transition: transform 0.9s ease;
+    max-width: 100%;
+    height: auto;
 }
 
 .pics:hover {
@@ -214,6 +223,10 @@ Body (projects)
 
 #todo {
     height: 300px;
+}
+
+audio {
+    max-width: 100%;
 }
 
 
