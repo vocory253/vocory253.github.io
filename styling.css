@@ -222,33 +222,22 @@ Body (projects)
 
 
 /*Mobile Device Design*/
-@media only screen and (min-width: 320px) and (max-width: 414px) {
-    #profile {
-      margin-left: 80px;
-    }
+/* @media only screen and (min-width: 320px) and (max-width: 420px) {
 
     nav ul li {
       display: block;
       list-style-type: none;
       margin-bottom: 25px;
-    
-    }
+    } 
 
     #insta, #linked_in, #outlook, #resume {
         margin-right: 100px;
     }
 
-    #intro_message {
-        margin: 0;
+
+      #profile {
+        max-width: 100%;
     }
-
-    .project {
-        display: block;
-    }
-
-    p {
-        white-space: normal;
-      }
-
-  }
+    
+} */
 
