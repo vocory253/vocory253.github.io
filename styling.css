@@ -218,7 +218,7 @@ Body (projects)
 
 .pics:hover {
     transform: scale(1.1);
-    filter: grayscale(.5);
+    filter: brightness(1.1);
 }
 
 #todo {
