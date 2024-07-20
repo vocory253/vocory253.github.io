@@ -218,6 +218,7 @@ Body (projects)
     transition: transform 0.9s ease;
     max-width: 100%;
     height: auto;
+    flex: 1;
 }
 
 .pics:hover {
@@ -268,6 +269,10 @@ audio {
     .logos {
         display: flex;
         justify-content: center;
+    }
+
+    .text {
+        flex: 1;
     }
     
 }
