@@ -238,9 +238,13 @@ audio {
 /*Mobile Device Design*/
 @media only screen and (min-width: 320px) and (max-width: 420px) {
 
+    nav ul {
+        display: flex;
+        flex-direction: column; /* Stack the items vertically */
+        justify-content: center;
+    }
+
     nav ul li {
-        /* display: block;
-        list-style-type: none; */
         margin: 5%;
     } 
 
@@ -258,6 +262,11 @@ audio {
 
     #cs {
         text-align: center;
+    }
+
+    #logos {
+        display: flex;
+        justify-content: center;
     }
     
 }
