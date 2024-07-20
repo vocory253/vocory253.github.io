@@ -53,7 +53,7 @@ body {
     background-size: 100% 100%;
 } 
 
-h1 {
+#name {
     font-size: 120px;
     margin: 0; 
     font-family: Oxygen;
@@ -160,22 +160,23 @@ Body (projects)
 */
 #intro_message {
     border-style: double;
-    min-width: 500px;
-    margin: auto;
+    /* min-width: 500px; */
     margin-top: 100px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     border-radius: 20px;
     transition: transform 0.7s ease;
     box-shadow: 7px 7px 10px;
     margin-bottom: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 #intro_message:hover {
     transform: scale(1.1);
+}
+
+#introcontainer {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .project {
@@ -237,14 +238,22 @@ audio {
 @media only screen and (min-width: 320px) and (max-width: 420px) {
 
     nav ul li {
-      display: block;
-      list-style-type: none;
-      margin: 5%;
+        display: block;
+        list-style-type: none;
+        margin: 5%;
     } 
 
-    /* #profile {
-        max-width: 100%;
-    } */
+    #profile {
+        margin-top: 20px;
+    }
+
+    #intro {
+        text-align: center;
+    }
+
+    #name {
+        text-align: center;
+    }
     
 }
 
