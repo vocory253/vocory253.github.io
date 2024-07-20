@@ -95,7 +95,7 @@ h1 {
 }
 
 #profile {
-    height: 500px;
+    height: 450px;
     border-radius: 50%;
     min-width: 50%;
     border-style: double;
@@ -160,8 +160,8 @@ Body (projects)
 */
 #intro_message {
     border-style: double;
-    margin-left: 100px;
-    margin-right: 100px;
+    min-width: 500px;
+    margin: auto;
     margin-top: 100px;
     text-align: center;
     padding-top: 20px;
@@ -170,6 +170,8 @@ Body (projects)
     transition: transform 0.7s ease;
     box-shadow: 7px 7px 10px;
     margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #intro_message:hover {
@@ -177,8 +179,6 @@ Body (projects)
 }
 
 .project {
-    margin-left: 100px;
-    margin-right: 100px;
     margin-bottom: 100px;
     display: inline-flex;
     justify-content: space-around;
@@ -188,11 +188,13 @@ Body (projects)
     border-radius: 20px;
     box-shadow: 7px 7px 10px;
     box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 5%;
 } 
 
 .project h2{
     font-family: Oxygen;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .project, p {
@@ -231,26 +233,18 @@ audio {
 
 
 
-
-
-
 /*Mobile Device Design*/
-/* @media only screen and (min-width: 320px) and (max-width: 420px) {
+@media only screen and (min-width: 320px) and (max-width: 420px) {
 
     nav ul li {
       display: block;
       list-style-type: none;
-      margin-bottom: 25px;
+      margin: 5%;
     } 
 
-    #insta, #linked_in, #outlook, #resume {
-        margin-right: 100px;
-    }
-
-
-      #profile {
+    /* #profile {
         max-width: 100%;
-    }
+    } */
     
-} */
+}
 
