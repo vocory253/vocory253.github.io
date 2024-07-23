@@ -202,6 +202,8 @@ Body (projects)
 .project, p {
     font-size: 18px;
     line-height: 200%; 
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #absurdle {
@@ -209,7 +211,8 @@ Body (projects)
 }
 
 .text {
-    width: 50%;
+    /* width: 50%; */
+    flex: 1;
     text-align: center;
 }
 
@@ -218,8 +221,16 @@ Body (projects)
     transition: transform 0.9s ease;
     max-width: 100%;
     height: auto;
-    flex: 1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* flex: 1; */
 }
+
+@media (max-width: 1000px) {
+    .project {
+      flex-direction: column;
+    }
+  }
 
 .pics:hover {
     transform: scale(1.1);
