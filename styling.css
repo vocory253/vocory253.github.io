@@ -157,9 +157,9 @@ Body (contact)
 */
 
 #insta, #linked_in, #outlook, #resume {
-    width: 100px;
+    max-width: 75px;
     margin-bottom: 20px; 
-    border-radius: 50%;
+    border-radius: 10%;
     margin-left: 20px;
     margin-right: 20px;
     transition: transform 0.7s ease; 
@@ -265,11 +265,23 @@ Body (projects)
     height: 300px;
 }
 
+#absurdle {
+    height: 250px;
+}
+
+#huffman {
+    height: 300px;
+}
+
+#ciphers {
+    height: 300px;
+}
+
 audio {
     max-width: 100%;
 }
 
-embed {
+iframe {
     width: 100%;
     height: 100vh;
 }
@@ -285,9 +297,9 @@ embed {
         align-items: center;
     }
 
-    nav ul li {
-        margin: 5%;
-    } 
+    /* nav ul li {
+         margin: 5%;
+    }  */
 
     #profile {
         margin-top: 20px;
