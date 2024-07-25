@@ -15,7 +15,12 @@
 Header
 */
 header {
-    margin-top: 35px;
+    /* margin-top: 35px; */
+    background-color: 	#938d80;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+
 }
 
 nav {
@@ -23,26 +28,41 @@ nav {
 }
 
 nav a {
+    /* text-decoration: none; */
+    /* background-color: rgb(1, 191, 255); */
+    border-radius: 10%; 
     text-decoration: none;
-    background-color: rgb(1, 191, 255);
-    padding: 7px 20px;
-    border-radius: 10%;
     display: inline-block;
     transition: transform 0.5s ease;
 }
 
 nav a:visited{
-    color: black;
+    /* color: black; */
+    text-decoration: underline;
+    color: white;
 }
 
 nav a:hover {
-    color: white; /* Color when hovering over links */
+    /* color: white;  */
+    /* Color when hovering over links */
     transform: scale(1.1); 
+    background-color: #6d685e;
+    padding: 7px 20px; 
+    margin: -7px -20px; /* Offset the added padding */
+}
+
+/* nav a.active {
+    text-decoration: underline;
+} */
+
+nav ul li a.navbar.active {
+    text-decoration: underline !important;
 }
 
 nav ul li {
+    font-size: 18px;
     display: inline; 
-    margin: 0 20px; 
+    margin: 0 30px; 
 }
 
 
@@ -59,6 +79,7 @@ body {
     margin: 0; 
     font-family: Oxygen;
     color: rgb(27, 27, 160);
+    /* color: rgb(128, 128, 128); */
 }
 
 .content p {
@@ -96,9 +117,9 @@ body {
 }
 
 #profile {
-    height: 450px;
+    /* height: 450px; */
     border-radius: 50%;
-    min-width: 50%;
+    min-width: 40%;
     border-style: double;
     border-width: 6px;
     transition: transform 0.7s ease;
@@ -134,10 +155,13 @@ body {
 /*
 Body (contact)
 */
+
 #insta, #linked_in, #outlook, #resume {
-    height: 250px;
-    margin-top: 100px; 
-    border-radius: 5%;
+    width: 100px;
+    margin-bottom: 20px; 
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
     transition: transform 0.7s ease; 
 }
 
@@ -148,8 +172,8 @@ Body (contact)
 
 .all_logos {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-wrap: wrap; */
 }
 
 .all_logos a{
@@ -245,6 +269,10 @@ audio {
     max-width: 100%;
 }
 
+embed {
+    width: 100%;
+    height: 100vh;
+}
 
 
 /*Mobile Device Design*/
@@ -288,3 +316,44 @@ audio {
     
 }
 
+/* Form-Page */
+
+.contact-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 7px 7px 7px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+#form-contact {
+    text-align: center;
+}
+
+.formb {
+    margin-bottom: 5px;
+}

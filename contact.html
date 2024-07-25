@@ -28,13 +28,33 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="contact.html">Contact/CV</a></li>
+                <li><a href="index.html" class="navbar">About</a></li>
+                <li><a href="project.html" class="navbar">Projects</a></li>
+                <li><a href="cv.html" class="navbar">Resume</a></li>
+                <li><a href="contact.html" class="navbar">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div class="contact-container">
+            <h1 id="form-contact">Contact Me</h1>
+            <form action="your-server-endpoint" method="POST">
+                <label for="username" class="formb">Name:</label>
+                <input placeholder="ex. Johnny Apple" type="text" id="username" name="username" required>
+        
+                <label for="email" class="formb">Email:</label>
+                <input placeholder="ex. johnnyapple@gmail.com" type="email" id="email" name="email" required>
+        
+                <label for="subject" class="formb">Subject:</label>
+                <input placeholder="Enter the subject" type="text" id="subject" name="subject" required>
+        
+                <label for="message" class="formb">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
         <section class= "all_logos">
             <a href="https://www.instagram.com/vo.cory/" target="_blank">
                 <img id="insta" src="images/instalogo.webp" alt="Intagram logo">
@@ -44,9 +64,6 @@
             </a>
             <a href="https://www.linkedin.com/in/cory-vo/" target="_blank">
                 <img id="linked_in" src="images/linkedin.png" alt="LinkedIn logo">
-            </a>
-            <a href="https://www.overleaf.com/read/nszppvjgymyy#d2831e" target="_blank">
-                <img id="resume" src="images/cvnew.png" alt="Resume Logo">
             </a>
         </section>
     </main>
