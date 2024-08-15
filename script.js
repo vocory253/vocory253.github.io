@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
           setTimeout(typeWriter, speed);
         }
       }
-
       // Start typing animation
       typeWriter();
     }
